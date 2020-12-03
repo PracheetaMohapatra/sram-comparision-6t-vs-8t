@@ -30,14 +30,14 @@
     - [SNM 6T](#SNM-6T)
         - [Hold state](#Hold-state)
         - [Read snm](#Read-snm)
-     - [Why 8T?](#Why-8T?)
-        - [Read stability](#Read-stability)
-        - [Read SNM 8T](#Read-SNM-8T)
-     - [Comparison 6T vs 8T](#Comparison-6T-vs-8T)
-     - [Prelayout 8T simulation](#Prelayout-8T-simulation)
-     - [Postlayout 8T simulation](#Postlayout-8T-simulation)
-     - [Future Works](#Future-Works)
-     - [Acknowledgements](#Acknowledgements)
+- [Why 8T?](#Why-8T?)
+      - [Read stability](#Read-stability)
+      - [Read SNM 8T](#Read-SNM-8T)
+- [Comparison 6T vs 8T](#Comparison-6T-vs-8T)
+- [Prelayout 8T simulation](#Prelayout-8T-simulation)
+- [Postlayout 8T simulation](#Postlayout-8T-simulation)
+- [Future Works](#Future-Works)
+- [Acknowledgements](#Acknowledgements)
 ## Abstract
 With the increasing competencies in semiconductor industry stability has become a prime concern.So enhanced solution for improving the stability is using 8T SRAM.It provides a better read stability with greater read noise margin, eliminates data flipping due to noise source during a read access.
 ## Introduction
