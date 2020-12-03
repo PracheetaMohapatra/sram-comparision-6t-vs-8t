@@ -1,7 +1,7 @@
-# Sram Design of conventional 6T cell & comparing it with 8T cell
+# Sram Design of conventional 6T cell & comparing its cell stability with 8T cell
 # Table Of Contents
-- [Introduction](#Introduction)
 - [Abstract](#Abstract)
+- [Introduction](#Introduction)
 - [6T Sram Design](#6T-Sram-Design)
     - [Modes Of Sram Operation](#Modes-Of-Sram-Operation)
     - [Sram Block Diagram](#Sram-Block-Diagram)
@@ -38,9 +38,8 @@
      - [Postlayout 8T simulation](#Postlayout-8T-simulation)
      - [Future Works](#Future-Works)
      - [Acknowledgements](#Acknowledgements)
-## Introduction
-anna munna
 ## Abstract
-Design of conventional 6T 1bit cell of Sram and its stability comparision with 8T 1bit cell Sram.
- 
-
+With the increasing competencies in semiconductor industry stability has become a prime concern.So enhanced solution for improving the stability is using 8T SRAM.It provides a better read stability with greater read noise margin, eliminates data flipping due to noise source during a read access.
+## Introduction
+As SRAM is scaled, so maintaining a sufficient Noise Margin is difficult due to both increase in variability and shifting of device characteristics from design targets. This work will somehow make strong signal to noise ratio which will improve the performance rate ,focusing on improvement of data stability in SRAM  by modifying it to a 8T from 6T.
+## 6T Sram Design
