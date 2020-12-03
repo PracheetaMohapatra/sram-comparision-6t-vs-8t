@@ -38,16 +38,16 @@
     - [Postlayout 8T simulation](#Postlayout-8T-simulation)
     - [Future Works](#Future-Works)
     - [Acknowledgements](#Acknowledgements)
-## Abstract
+# Abstract
 With the increasing competencies in semiconductor industry stability has become a prime concern.So enhanced solution for improving the stability is using 8T SRAM.It provides a better read stability with greater read noise margin, eliminates data flipping due to noise source during a read access.
-## Introduction
+# Introduction
 As SRAM is scaled, so maintaining a sufficient Noise Margin is difficult due to both increase in variability and shifting of device characteristics from design targets. This work will somehow make strong signal to noise ratio which will improve the performance rate ,focusing on improvement of data stability in SRAM  by modifying it to a 8T from 6T.
-## 6T Sram Design
+# 6T Sram Design
 This project is based on designing a 6t 1 bit _fast parasitic_ cell to work as a sram and its related blocks and compiling it using [OpenRAM] [OpenRAMpaper] compiler.
-# Technology
+## Technology
 **MOSIS** scalable CMOS ([SCMOS]) technology , a scalable 0.5 _u_ CMOS technology.
 [SCMOS] is a *lambda-based* scalable design rules that can be interfaced to many CMOS fabrication process available at MOSIS.
-# System Specification
+## System Specification
 - Typical MOS parameters:
 -**NMOS**: tox=7.6nm , nch=1.7e17/cm^3, **vt0**=0.49v, _un_(mobility)=445 cm^2/Vs.
 -**PMOS**: tox=7.6nm , nch=1.7e17/cm^3, **vt0**=0.66v, _un_(mobility)=151 cm^2/Vs.
