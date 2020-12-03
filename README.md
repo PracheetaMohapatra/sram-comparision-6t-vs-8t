@@ -43,3 +43,10 @@ With the increasing competencies in semiconductor industry stability has become 
 ## Introduction
 As SRAM is scaled, so maintaining a sufficient Noise Margin is difficult due to both increase in variability and shifting of device characteristics from design targets. This work will somehow make strong signal to noise ratio which will improve the performance rate ,focusing on improvement of data stability in SRAM  by modifying it to a 8T from 6T.
 ## 6T Sram Design
+This project is based on designing a 6t 1 bit _fast parasitic_ cell to work as a sram and its related blocks and compiling it using [OpenRAM] [OpenRAMpaper] compiler
+
+
+
+
+***
+[OpenRAM]:      https://openram.soe.ucsc.edu/
