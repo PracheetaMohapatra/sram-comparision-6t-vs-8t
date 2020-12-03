@@ -60,7 +60,8 @@ This project is based on designing a 6t 1 bit _fast parasitic_ cell to work as a
 #### **HOLD STATE**
 When the Word Line (WL) is at logic ‘0’, the access transistors M2 and M3 disconnect the cell from the Bit Lines and the previous state or data bits is stored.
 #### **READ MODE**
-###### Memory : Q=**1** , QBar=**0** ###### WL :1 ###### (BL,BLBAR) acts as O/P LINES     ###### Precharge cap ON     
+###### (Memory : Q=1 ,QBar=0) , (WL :1) ,  (BL,BLBAR) acts as O/P LINES ,  (Precharge cap ON ) , (BLBAR _decreases_  , since QBar=0 potential difference occurs , current flows , cap discharges) 
+###### (BL,BLBar sent to sense amplifier) gives _op as 1_) , (READ _SUCCESSFUL)
 
 ##  SRAM BLOCK DIAGRAM
 ***
