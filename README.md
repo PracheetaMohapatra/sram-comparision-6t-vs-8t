@@ -52,7 +52,7 @@ This project is based on designing a 6t 1 bit _fast parasitic_ cell to work as a
 ## System Specification
 ### - Typical MOS parameters:
 ##### **NMOS**: tox=7.6nm , nch=1.7e17/cm^3, **vt0**=0.49v, _un_(mobility)=445 cm^2/Vs.
-#### **PMOS**: tox=7.6nm , nch=1.7e17/cm^3, **vt0**=0.66v, _un_(mobility)=151 cm^2/Vs.
+#### **PMOS**: tox=7.6nm , nch=1.7e17/cm^3, **vt0**=0.66v, _up_(mobility)=151 cm^2/Vs.
 #### **VDD**=5V, **Lmin**=0.4 _um_, **Wmin**=0.6 _um_
 # Mode of Operation of a typical 6T cell
 ## 6T cell CIRCUIT DIAGRAM
@@ -61,6 +61,7 @@ This project is based on designing a 6t 1 bit _fast parasitic_ cell to work as a
 When the Word Line (WL) is at logic ‘0’, the access transistors M2 and M3 disconnect the cell from the Bit Lines and the previous state or data bits is stored.
 #### **READ MODE**
 Memory : Q=**1** , QBar=**0** 
+WL :**1**----->(BL,BLBAR)-------->**acts as O/P LINES**----- >Precharge cap ON------->
 
 ##  SRAM BLOCK DIAGRAM
 ***
