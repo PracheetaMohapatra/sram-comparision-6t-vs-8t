@@ -44,10 +44,15 @@ With the increasing competencies in semiconductor industry stability has become 
 As SRAM is scaled, so maintaining a sufficient Noise Margin is difficult due to both increase in variability and shifting of device characteristics from design targets. This work will somehow make strong signal to noise ratio which will improve the performance rate ,focusing on improvement of data stability in SRAM  by modifying it to a 8T from 6T.
 ## 6T Sram Design
 This project is based on designing a 6t 1 bit _fast parasitic_ cell to work as a sram and its related blocks and compiling it using [OpenRAM] [OpenRAMpaper] compiler.
-
-
-
-
+# Technology
+**MOSIS** scalable CMOS ([SCMOS]) technology , a scalable 0.5 _u_ CMOS technology.
+[SCMOS] is a *lambda-based* scalable design rules that can be interfaced to many CMOS fabrication process available at MOSIS.
+# System Specification
+- Typical MOS parameters:
+-**NMOS**: tox=7.6nm , nch=1.7e17/cm^3, **vt0**=0.49v, _un_(mobility)=445 cm^2/Vs.
+-**PMOS**: tox=7.6nm , nch=1.7e17/cm^3, **vt0**=0.66v, _un_(mobility)=151 cm^2/Vs.
+-**VDD**=5V, **Lmin**=0.4 _um_, **Wmin**=0.6 _um_
 ***
 [OpenRAM]:      https://openram.soe.ucsc.edu/
 [OpenRAMpaper]:  https://ieeexplore.ieee.org/document/7827670/
+[SCMOS]:         https://www.mosis.com/files/scmos/scmos.pdf
