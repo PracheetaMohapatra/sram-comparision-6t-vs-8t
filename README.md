@@ -5,6 +5,9 @@
 - [6T Sram Design](#6T-Sram-Design)
     - [Modes Of Sram Operation](#Modes-Of-Sram-Operation)
     - [Sram Block Diagram](#Sram-Block-Diagram)
+    - [Sram Blocks](#Sram-Blocks)
+        - [6T 1bit cell Sram](#6T-1bit-cell-Sram)
+     
 ## Abstract
 Design of conventional 6T 1bit cell of Sram and its stability comparision with 8T 1bit cell Sram.
  
