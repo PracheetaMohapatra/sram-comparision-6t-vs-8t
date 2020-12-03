@@ -18,7 +18,7 @@
         - [DC read](#DC-read)
         - [DC write](#DC-write)
         - [Transient 6T Simulations with related blocks](#Transient-6T-Simulations-with-related-blocks)
-        - [Threshold voltage characterisation  ( _vt vs temp_)](#Threshold-voltage-characterisation-( _vt vs temp_)
+        - [Threshold voltage characterisation  _vt vs temp_ ](#Threshold-voltage-characterisation- _vt vs temp_)
 ## Abstract
 Design of conventional 6T 1bit cell of Sram and its stability comparision with 8T 1bit cell Sram.
  
