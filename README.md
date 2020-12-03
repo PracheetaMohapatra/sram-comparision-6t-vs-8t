@@ -1,3 +1,7 @@
-# Sram-comparision-6T-vs-8T
+# Sram-comparison-6T-vs-8T
+# Table Of Contents
+- [Introduction](#Introduction)
 ## Abstract
-design of conventional 6T 1bit cell of sram and its stability comparision with 8T sram 
+Design of conventional 6T 1bit cell of Sram and its stability comparision with 8T 1bit cell Sram.
+##Literature Review
+
