@@ -3,6 +3,8 @@
 - [Abstract](#Abstract)
 - [Introduction](#Introduction)
 - [6T Sram Design](#6T-Sram-Design)
+    - [Technology](#Technology)
+    - [System Specification](#System-Specification)
     - [Modes Of Sram Operation](#Modes-Of-Sram-Operation)
     - [Sram Block Diagram](#Sram-Block-Diagram)
     - [Sram Blocks](#Sram-Blocks)
