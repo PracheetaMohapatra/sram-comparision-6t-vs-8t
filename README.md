@@ -19,7 +19,7 @@
         - [DC write](#DC-write)
         - [Transient 6T Simulations with related blocks](#Transient-6T-Simulations-with-related-blocks)
         - [Threshold voltage characterisation VT vs TEMP](#Threshold-voltage-characterisation-VT-vs-TEMP)
-    - [Pvt Varriation](#Pvt-Variation)
+    - [Pvt Variation](#Pvt-Variation)
     - [Post layout 6T simulations](#Post-layout-simulations)
         - [6T cell](#6T-cell)
         - [Sense Amplifier](#Sense-Amplifier)
@@ -38,6 +38,8 @@
      - [Postlayout 8T simulation](#Postlayout-8T-simulation)
      - [Future Works](#Future-Works)
      - [Acknowledgements](#Acknowledgements)
+## Introduction
+anna munna
 ## Abstract
 Design of conventional 6T 1bit cell of Sram and its stability comparision with 8T 1bit cell Sram.
  
