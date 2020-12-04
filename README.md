@@ -74,8 +74,19 @@ When the Word Line (WL) is at logic ‘0’, the access transistors M2 and M3 di
 
 ## SRAM BLOCKS
 ### 6T 1bit cell Sram
-Its a static memory of 4 transistors for storing data using node **O** and **QBar** and 2 **_access transistors_** connected to **_word line_** to access the memory ( i.e **read and write operation**).
+Its a static memory of 4 transistors for storing data using node **O** and **QBar** and 2 **_access transistors_** connected to **_word line_** to access the memory ( i.e during **read and write operation**).
 ### BLOCK DIAGRAM 6T CELL
+
+### CIRCUIT DIAGRAM
+
+### Sense Amplifier
+Its a differential circuit amplifier used in read operation which acts as a comparator and senses the voltage difference between BL and BLBar.the sense amp is necessary to recover the signals from the bit lines because they do not experience full voltage swing as there is huge load capacitances of the **_bit cell array_**.
+### BLOCK DIAGRAM
+
+### CIRCUIT DIAGRAM
+### Write Driver
+The write driver is used to drive the input signal into the _bit-cell during a write operation_. It consists of two _tristate buﬀers_, one inverting and one non-inverting. It takes in a data bit, and outputs that value on to the bit-line, and its complement on the bit-line bar. Both tristates are enabled by the _**EN (enable)**_ signal. The bit-lines always need to be complements to ensure that the correct data is stored in the bit-cell. Also, the drivers need to be appropriately sized as the memory array grows and the bit-line capacitance increases.
+### BLOCK DIAGRAM
 
 ### CIRCUIT DIAGRAM
 
