@@ -70,6 +70,15 @@ When the Word Line (WL) is at logic ‘0’, the access transistors M2 and M3 di
 
 
 ##  SRAM BLOCK DIAGRAM
+
+
+## SRAM BLOCKS
+### 6T 1bit cell Sram
+Its a static memory of 4 transistors for storing data using node **O** and **QBar** and 2 **_access transistors_** connected to **_word line_** to access the memory ( i.e **read and write operation**).
+### BLOCK DIAGRAM 6T CELL
+
+### CIRCUIT DIAGRAM
+
 ***
 [OpenRAM]:      https://openram.soe.ucsc.edu/
 [OpenRAMpaper]:  https://ieeexplore.ieee.org/document/7827670/
