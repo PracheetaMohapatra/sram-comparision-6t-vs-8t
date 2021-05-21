@@ -17,10 +17,9 @@
         - [Column Multiplexer](#Column-Multiplexer)
         - [Word Line Driver](#Word-Line-Driver)
     - [Prelayout Simulations](#Prelayout-Simulations)
-        - [DC read](#DC-read)
-        - [DC write](#DC-write)
+        - [read SNM](#read-SNM)
+        - [DC Simulation](#DC-Simulation)
         - [Transient 6T Simulations with related blocks](#Transient-6T-Simulations-with-related-blocks)
-        - [Threshold voltage characterisation VT vs TEMP](#Threshold-voltage-characterisation-VT-vs-TEMP)
     - [Pvt Variation](#Pvt-Variation)
     - [Post layout 6T simulations](#Post-layout-simulations)
         - [6T cell](#6T-cell)
@@ -74,7 +73,7 @@ When the Word Line (WL) is at logic ‘0’, the access transistors M2 and M3 di
 
 ## SRAM BLOCKS
 ### 6T 1bit cell Sram
-Its a static memory of 4 transistors for storing data using node **O** and **QBar** and 2 **_access transistors_** connected to **_word line_** to access the memory ( i.e during **read and write operation**).
+Its a static memory of 4 transistors for storing data using node **Q** and **QBar** and 2 **_access transistors_** connected to **_word line_** to access the memory ( i.e during **read and write operation**).
 ### BLOCK DIAGRAM 6T CELL
 
 ### CIRCUIT DIAGRAM
@@ -115,10 +114,23 @@ The TriState Buffer enables and puts the output data on data bus.
 They are used to drive the access transistors during read and write operations. 
 ## Prelayout simulations
 Before doing the Layout,the prelayout simulatons checked.The read/write timing estimation in Spice is done using a fast-single-6T parasitic model. Fast-single-6T parasitic models considers and estimates the parasitics of the wordlines and bitlines in the bit cell array analysing the capacitance for only 1-Bit Cell.
-### DC read SNM curve
-The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.40**
+###  read SNM curve
 
+The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.40**
 It can be extracted by calculating the largest possible square in the two voltage transfer characteristic curves (VTC) of the involved CMOS inverters and get us to know how much noise the SRAM Cell can tolerate.
+ ### Dc Simulation
+ The DC Simulation does the write and read sanity check for the SRAM cell,observing the trip point and checking the iterative threshold voltages taken for the simulation.
+ 
+ ### Transient 6-T simulations
+ ***Input signals***
+ 
+ ***Output signals***
+ ## PVT Variation
+ ***for nmos***
+ 
+ ***for pmos***
+ ## Post-Layout simulations
+
 
 ***
 [OpenRAM]:      https://openram.soe.ucsc.edu/
