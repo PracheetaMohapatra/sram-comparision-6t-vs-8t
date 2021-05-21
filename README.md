@@ -122,14 +122,18 @@ It can be extracted by calculating the largest possible square in the two voltag
  The DC Simulation does the write and read sanity check for the SRAM cell,observing the trip point and checking the iterative threshold voltages taken for the simulation.
  
  ### Transient 6-T simulations
- ***Input signals***
+ **Input signals**
  
- ***Output signals***
+ **Output signals**
  ## PVT Variation
- ***for nmos***
+ **for nmos**
  
- ***for pmos***
+ **for pmos**
  ## Post-Layout simulations
+ ****6t 1-bit cell****
+**Layout**
+
+**simulation**
 
 
 ***
