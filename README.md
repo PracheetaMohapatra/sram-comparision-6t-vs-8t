@@ -10,12 +10,12 @@
     - [Sram Blocks](#Sram-Blocks)
         - [6T 1bit cell Sram](#6T-1bit-cell-Sram)
         - [Sense Amplifier](#Sense-Amplifier)
-        - [Word Line Driver](#Word-Line-Driver)
         - [Write Driver](#Write-Driver)
         - [Precharge Circuit](#Precharge-Circuit)
         - [D Flipflop](#D-Flipflop)
-        - [Column Multiplexer](#Column-Multiplexer)
         - [Tristate Buffer](#Tristate-Buffer)
+        - [Column Multiplexer](#Column-Multiplexer)
+        - [Word Line Driver](#Word-Line-Driver)
     - [Prelayout Simulations](#Prelayout-Simulations)
         - [DC read](#DC-read)
         - [DC write](#DC-write)
@@ -89,6 +89,36 @@ The write driver is used to drive the input signal into the _bit-cell during a w
 ### BLOCK DIAGRAM
 
 ### CIRCUIT DIAGRAM
+
+### Precharge Circuit
+It precharges the bit-lines during the first phase of the clock cycle before read and write operations.It has a third PMOS transistor which connects the two bit-lines together and equalizes the voltage between the two bit-lines.
+### BLOCK DIAGRAM
+
+### CIRCUIT DIAGRAM
+### D-Flipflop
+It is necessary to synchronize the inputs and outputs with a clock signal. In OpenRAM,a master-slave D-flipflop is used for the synchronizing process.
+### BLOCK DIAGRAM
+
+
+### CIRCUIT DIAGRAM
+
+### Tristate Buffer
+The TriState Buffer enables and puts the output data on data bus.
+### BLOCK DIAGRAM
+
+
+### CIRCUIT DIAGRAM
+
+### Column Multiplexer
+
+### Wordline Driver
+They are used to drive the access transistors during read and write operations. 
+## Prelayout simulations
+Before doing the Layout,the prelayout simulatons checked.The read/write timing estimation in Spice is done using a fast-single-6T parasitic model. Fast-single-6T parasitic models considers and estimates the parasitics of the wordlines and bitlines in the bit cell array analysing the capacitance for only 1-Bit Cell.
+### DC read SNM curve
+The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.40**
+
+It can be extracted by calculating the largest possible square in the two voltage transfer characteristic curves (VTC) of the involved CMOS inverters and get us to know how much noise the SRAM Cell can tolerate.
 
 ***
 [OpenRAM]:      https://openram.soe.ucsc.edu/
